@@ -54,6 +54,12 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+<br>
+
+### Altere o arquivo "settings.py" dentro da pasta "_desafio_backend", comente as linhas 91 até a 98, e altere a variavél "DATABASES" para como a imagem abaixo:
+<br>
+
+<img src="settings_py.png" alt="Configuração settings.py" style="border: 2px solid black; border-radius: 4px; width: 700px; margin-left: 50px"/>
 
 <br>
 
