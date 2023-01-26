@@ -8,6 +8,7 @@
 <br>
 
 ## `Tecnologias utilizadas no projeto`
+
 <br>
 <div id="tecs"style='display:flex; gap: 5px;'><br>
    <img align="center" alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white">
@@ -21,6 +22,7 @@
 <br>
 
 ## `Instruções para rodar o projeto localmente`
+
 <br>
 
 ### Crie o ambiente virtual local com o comando:
@@ -44,6 +46,7 @@ python -m venv venv
 ```
 source venv/bin/activate
 ```
+
 <br>
 
 ### Instalar as dependências necessárias:
@@ -51,6 +54,7 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
 <br>
 
 ### Execute as migrações para criação das tabelas SQLite3
@@ -58,6 +62,7 @@ pip install -r requirements.txt
 ```
 python manage.py migrate
 ```
+
 <br>
 
 ### Inicie o servidor
@@ -65,6 +70,7 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
 <br>
 <hr>
 <br>
@@ -74,6 +80,7 @@ python manage.py runserver
 ```
 docker compose up
 ```
+
 <br>
 <hr>
 <br>
@@ -83,5 +90,6 @@ docker compose up
 ```
 localhost:8000/api/cnab/
 ```
+
 <br>
 <hr>

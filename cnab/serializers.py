@@ -28,21 +28,21 @@ class UploadCnabSerializer(serializers.ModelSerializer):
                 file_list.append(line)
 
         for item in file_list:
-            type:str = item[:1]
-            day:str = item[7:9]
-            month:str = item[5:7]
-            year:str = item[1:5]
-            date:str = f"{year}-{month}-{day}"
-            value_item:str = item[9:19]
+            type: str = item[:1]
+            day: str = item[7:9]
+            month: str = item[5:7]
+            year: str = item[1:5]
+            date: str = f"{year}-{month}-{day}"
+            value_item: str = item[9:19]
             value = int(value_item) / 100.00
-            cpf:str = item[19:30]
-            credit_card:str = item[30:42]
-            hour_item:str = item[42:44]
-            minutes:str = item[44:46]
-            seconds:str = item[46:48]
-            hour:str = f"{hour_item}:{minutes}:{seconds}"
-            owner_shop:str = item[48:62]
-            shop_name:str = item[62:81]
+            cpf: str = item[19:30]
+            credit_card: str = item[30:42]
+            hour_item: str = item[42:44]
+            minutes: str = item[44:46]
+            seconds: str = item[46:48]
+            hour: str = f"{hour_item}:{minutes}:{seconds}"
+            owner_shop: str = item[48:62]
+            shop_name: str = item[62:81]
 
             if type == "1":
                 type = "Débito"
